@@ -1,0 +1,5 @@
+<resources>
+	<string name = "app_name">Hotdog Showdown</string>
+	<string name = "activity_main_button_reset">-</string>
+	<string name = "activity_main_button_add">+</string>
+</resources>
