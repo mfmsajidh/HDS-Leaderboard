@@ -67,7 +67,10 @@ function App(props) {
                         <Avatar className={classes.orangeAvatar}>1</Avatar>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant={"h4"} color={"textPrimary"}>Sajidh Farook</Typography>
+                        <Typography variant={"h4"} color={"textPrimary"}>SAJIDH FAROOK</Typography>
+                    </Grid>
+                    <Grid item>
+                        <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/>10 <i className='fas fa-clock'/>5:30</Typography>
                     </Grid>
                 </Grid>
             </Paper>
