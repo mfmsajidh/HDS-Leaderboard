@@ -21,7 +21,7 @@ function UserRecordUI(props) {
                         <Typography variant={"h4"} color={"textPrimary"}>SAJIDH FAROOK</Typography>
                     </Grid>
                     <Grid item>
-                        <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> 10  &nbsp; <i className='fas fa-clock'/> 5:30</Typography>
+                        <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> 10</Typography>
                     </Grid>
                 </Grid>
             </Paper>
