@@ -8,8 +8,8 @@ class App extends Component {
         return (
             <>
                 <UserRecordUI/>
-                <ProgressBarUI/>
-                <AppBarUI/>
+                {/*<ProgressBarUI>*/}
+                {/*<AppBarUI/>*/}
             </>
         )
     }
