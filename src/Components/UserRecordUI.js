@@ -107,17 +107,17 @@ class UserRecordUI extends Component {
         Eat16 : "",
         count16 : "16",
 
-        //User17
-        id17 : "56",
-        Name17 : "",
-        Eat17 : "",
-        count17 : "17",
-
-        //User18
-        id18 : "67",
-        Name18 : "",
-        Eat18 : "",
-        count18 : "18",
+        // //User17
+        // id17 : "56",
+        // Name17 : "",
+        // Eat17 : "",
+        // count17 : "17",
+        //
+        // //User18
+        // id18 : "67",
+        // Name18 : "",
+        // Eat18 : "",
+        // count18 : "18",
 
     };
 
@@ -730,81 +730,81 @@ class UserRecordUI extends Component {
             .catch(error => this.setState({ error, isLoading: false }));
     }
 
-    getName17() {
-        axios
-            .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?id=${this.state.id17}`)
-            .then(response => {
-                    this.setState({
-                        Name17 : response.data.Fname + " " + response.data.Lname
-                    });
-                    console.log("Name", this.state.Name17);
-                }
-            )
-            .then(users => {
-                this.setState({
-                    users,
-                    isLoading: false
-                });
-            })
-            .catch(error => this.setState({ error, isLoading: false }));
-    }
-
-    getEat17() {
-        axios
-            .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?firstR=1&id=${this.state.id17}`)
-            .then(response => {
-                    this.setState({
-                        Eat17 : response.data.round_1
-                    });
-                    console.log("Eat", this.state.Eat17);
-                }
-            )
-            .then(users => {
-                this.setState({
-                    users,
-                    isLoading: false
-                });
-            })
-            .catch(error => this.setState({ error, isLoading: false }));
-    }
-
-    getName18() {
-        axios
-            .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?id=${this.state.id18}`)
-            .then(response => {
-                    this.setState({
-                        Name18 : response.data.Fname + " " + response.data.Lname
-                    });
-                    console.log("Name", this.state.Name18);
-                }
-            )
-            .then(users => {
-                this.setState({
-                    users,
-                    isLoading: false
-                });
-            })
-            .catch(error => this.setState({ error, isLoading: false }));
-    }
-
-    getEat18() {
-        axios
-            .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?firstR=1&id=${this.state.id18}`)
-            .then(response => {
-                    this.setState({
-                        Eat18 : response.data.round_1
-                    });
-                    console.log("Eat", this.state.Eat18);
-                }
-            )
-            .then(users => {
-                this.setState({
-                    users,
-                    isLoading: false
-                });
-            })
-            .catch(error => this.setState({ error, isLoading: false }));
-    }
+    // getName17() {
+    //     axios
+    //         .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?id=${this.state.id17}`)
+    //         .then(response => {
+    //                 this.setState({
+    //                     Name17 : response.data.Fname + " " + response.data.Lname
+    //                 });
+    //                 console.log("Name", this.state.Name17);
+    //             }
+    //         )
+    //         .then(users => {
+    //             this.setState({
+    //                 users,
+    //                 isLoading: false
+    //             });
+    //         })
+    //         .catch(error => this.setState({ error, isLoading: false }));
+    // }
+    //
+    // getEat17() {
+    //     axios
+    //         .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?firstR=1&id=${this.state.id17}`)
+    //         .then(response => {
+    //                 this.setState({
+    //                     Eat17 : response.data.round_1
+    //                 });
+    //                 console.log("Eat", this.state.Eat17);
+    //             }
+    //         )
+    //         .then(users => {
+    //             this.setState({
+    //                 users,
+    //                 isLoading: false
+    //             });
+    //         })
+    //         .catch(error => this.setState({ error, isLoading: false }));
+    // }
+    //
+    // getName18() {
+    //     axios
+    //         .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?id=${this.state.id18}`)
+    //         .then(response => {
+    //                 this.setState({
+    //                     Name18 : response.data.Fname + " " + response.data.Lname
+    //                 });
+    //                 console.log("Name", this.state.Name18);
+    //             }
+    //         )
+    //         .then(users => {
+    //             this.setState({
+    //                 users,
+    //                 isLoading: false
+    //             });
+    //         })
+    //         .catch(error => this.setState({ error, isLoading: false }));
+    // }
+    //
+    // getEat18() {
+    //     axios
+    //         .get(`https://rciit.org/hdscounter/assets/fonts/randomFonts/hdsapi.php?firstR=1&id=${this.state.id18}`)
+    //         .then(response => {
+    //                 this.setState({
+    //                     Eat18 : response.data.round_1
+    //                 });
+    //                 console.log("Eat", this.state.Eat18);
+    //             }
+    //         )
+    //         .then(users => {
+    //             this.setState({
+    //                 users,
+    //                 isLoading: false
+    //             });
+    //         })
+    //         .catch(error => this.setState({ error, isLoading: false }));
+    // }
 
     componentDidMount() {
         this.getName1();
@@ -855,11 +855,11 @@ class UserRecordUI extends Component {
         this.getName16();
         this.getEat16();
 
-        this.getName17();
-        this.getEat17();
-
-        this.getName18();
-        this.getEat18();
+        // this.getName17();
+        // this.getEat17();
+        //
+        // this.getName18();
+        // this.getEat18();
 
         setInterval(() => {
             console.log('Timer Calling',);
@@ -879,8 +879,8 @@ class UserRecordUI extends Component {
             this.getEat14();
             this.getEat15();
             this.getEat16();
-            this.getEat17();
-            this.getEat18();
+            // this.getEat17();
+            // this.getEat18();
         }, 500);
 
     }
@@ -1147,37 +1147,37 @@ class UserRecordUI extends Component {
                         </Paper>
                     </div>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count17}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name17}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat17}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                    {/*<div className={classes.root}>*/}
+                    {/*    <Paper className={classes.paper} elevation={0}>*/}
+                    {/*        <Grid container wrap="nowrap" spacing={16}>*/}
+                    {/*            <Grid item>*/}
+                    {/*                <Avatar className={classes.orangeAvatar}>{this.state.count17}</Avatar>*/}
+                    {/*            </Grid>*/}
+                    {/*            <Grid item xs>*/}
+                    {/*                <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name17}</Typography>*/}
+                    {/*            </Grid>*/}
+                    {/*            <Grid item>*/}
+                    {/*                <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat17}</Typography>*/}
+                    {/*            </Grid>*/}
+                    {/*        </Grid>*/}
+                    {/*    </Paper>*/}
+                    {/*</div>*/}
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count18}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name18}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat18}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                    {/*<div className={classes.root}>*/}
+                    {/*    <Paper className={classes.paper} elevation={0}>*/}
+                    {/*        <Grid container wrap="nowrap" spacing={16}>*/}
+                    {/*            <Grid item>*/}
+                    {/*                <Avatar className={classes.orangeAvatar}>{this.state.count18}</Avatar>*/}
+                    {/*            </Grid>*/}
+                    {/*            <Grid item xs>*/}
+                    {/*                <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name18}</Typography>*/}
+                    {/*            </Grid>*/}
+                    {/*            <Grid item>*/}
+                    {/*                <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat18}</Typography>*/}
+                    {/*            </Grid>*/}
+                    {/*        </Grid>*/}
+                    {/*    </Paper>*/}
+                    {/*</div>*/}
 
                 </div>
             </div>
