@@ -7,7 +7,7 @@ const UserRecordStyle = theme => ({
         padding: `0 ${theme.spacing.unit * 3}px`
     },
     paper: {
-        maxWidth: 700,
+        maxWidth: 600,
         margin: `${theme.spacing.unit}px auto`,
         padding: theme.spacing.unit * 2,
         background: 'linear-gradient(45deg, #FF8E53 30%, #FE6B8B 90%)'

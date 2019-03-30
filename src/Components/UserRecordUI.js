@@ -891,261 +891,295 @@ class UserRecordUI extends Component {
         return (
             <div>
                 <div className={"split left"}>
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count1}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name1}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat1}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                    <Grid container>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count1}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name1}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat1}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count2}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name2}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat2}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count2}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name2}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat2}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count3}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name3}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat3}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count3}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name3}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat3}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count4}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name4}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat4}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count4}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name4}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat4}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count5}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name5}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat5}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count5}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name5}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat5}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count6}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name6}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat6}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count6}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name6}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat6}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count7}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name7}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat7}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count7}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name7}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat7}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count8}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name8}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat8}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count8}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name8}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat8}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count9}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name9}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat9}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count9}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name9}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat9}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count10}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name10}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat10}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count10}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name10}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat10}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count11}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name11}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat11}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count11}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name11}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat11}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count12}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name12}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat12}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count12}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name12}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat12}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count13}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name13}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat13}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count13}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name13}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat13}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count14}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name14}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat14}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count14}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name14}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat14}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count15}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name15}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat15}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count15}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name15}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat15}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
 
-                    <div className={classes.root}>
-                        <Paper className={classes.paper} elevation={0}>
-                            <Grid container wrap="nowrap" spacing={16}>
-                                <Grid item>
-                                    <Avatar className={classes.orangeAvatar}>{this.state.count16}</Avatar>
-                                </Grid>
-                                <Grid item xs>
-                                    <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name16}</Typography>
-                                </Grid>
-                                <Grid item>
-                                    <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat16}</Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </div>
+                        <Grid item xs={6}>
+                            <div className={classes.root}>
+                                <Paper className={classes.paper} elevation={0}>
+                                    <Grid container wrap="nowrap" spacing={16}>
+                                        <Grid item>
+                                            <Avatar className={classes.orangeAvatar}>{this.state.count16}</Avatar>
+                                        </Grid>
+                                        <Grid item xs>
+                                            <Typography variant={"h4"} color={"textPrimary"}>{this.state.Name16}</Typography>
+                                        </Grid>
+                                        <Grid item>
+                                            <Typography variant={"h4"} color={"textPrimary"}><i className='fas fa-hotdog'/> {this.state.Eat16}</Typography>
+                                        </Grid>
+                                    </Grid>
+                                </Paper>
+                            </div>
+                        </Grid>
+                    </Grid>
 
                     {/*<div className={classes.root}>*/}
                     {/*    <Paper className={classes.paper} elevation={0}>*/}
