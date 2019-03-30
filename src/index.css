@@ -1,7 +1,11 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -12,7 +16,10 @@
 /* Control the left side */
 .left {
     left: 0;
-    background-color: #111;
+    /*background-color: #111;*/
+    background-image: url("Images/HDS Background.png");
+    width: 100%;
+    height: 100%;
 }
 
 /* Control the right side */
