@@ -881,7 +881,7 @@ class UserRecordUI extends Component {
             this.getEat16();
             this.getEat17();
             this.getEat18();
-        }, 1000);
+        }, 500);
 
     }
 
